@@ -340,3 +340,5 @@ ASALocalRun/
 healthchecksdb
 *.ncrunchsolution
 *.ncrunchproject
+build/tools/*
+!build/tools/packages.config
