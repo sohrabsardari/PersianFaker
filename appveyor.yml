@@ -9,5 +9,5 @@ build_script:
 test: off
 deploy: off
 environment:
-   COVERALLS_REPO_TOKEN:
-    secure: +rOB5nYD+APZ93yca2laGLZuA1gh/spbzFg2wL+1NTxaINxWdJKq4csssQNz5DY3
+  CODECOV_TOKEN:
+    secure: JaL0l4hEGxSMrLLaso/UmV33DSGWGwMR+aL382cik8NSi1iB93TjFomgOHD/LTmb
