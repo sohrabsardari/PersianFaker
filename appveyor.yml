@@ -10,4 +10,4 @@ test: off
 deploy: off
 environment:
   CODECOV_TOKEN:
-    secure: JaL0l4hEGxSMrLLaso/UmV33DSGWGwMR+aL382cik8NSi1iB93TjFomgOHD/LTmb
+    secure: bb947d92-a857-430d-9e54-793e6db10dfc
