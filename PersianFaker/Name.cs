@@ -24,5 +24,15 @@ namespace PersianFaker
             var lastname = Resources.Name.Lastname.Split(Separator.SeparateWithSemicolon).Random().Trim();
             return firstname + " " + lastname;
         }
+
+        public static string LatinFirstName()
+        {
+            return Resources.Name.LatinFirstName.Split(Separator.SeparateWithSemicolon).Random().Trim();
+        }
+
+        public static string LatinLastName()
+        {
+            return Resources.Name.LatinLastName.Split(Separator.SeparateWithSemicolon).Random().Trim();
+        }
     }
 }

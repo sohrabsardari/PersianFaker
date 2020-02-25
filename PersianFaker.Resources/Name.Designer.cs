@@ -86,5 +86,23 @@ namespace PersianFaker.Resources {
                 return ResourceManager.GetString("LatinFirstName", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Abbott; Abernathy; Abshire; Adams; Altenwerth; Anderson; Ankunding; Armstrong; Auer; Aufderhar; Bahringer; Bailey; Balistreri; Barrows; Bartell; Bartoletti; Barton; Bashirian; Batz; Bauch; Baumbach; Bayer; Beahan; Beatty; Bechtelar; Becker; Bednar; Beer; Beier; Berge; Bergnaum; Bergstrom; Bernhard; Bernier; Bins; Blanda; Blick; Block; Bode; Boehm; Bogan; Bogisich; Borer; Bosco; Botsford; Boyer; Boyle; Bradtke; Brakus; Braun; Breitenberg; Brekke; Brown; Bruen; Buckridge; Carroll; Carter; Cartwright; Casper;  [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string LatinLastName {
+            get {
+                return ResourceManager.GetString("LatinLastName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to آقا;خانم;دکتر;مهندس;.
+        /// </summary>
+        public static string PreFix {
+            get {
+                return ResourceManager.GetString("PreFix", resourceCulture);
+            }
+        }
     }
 }

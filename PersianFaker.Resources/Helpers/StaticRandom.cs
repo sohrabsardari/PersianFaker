@@ -13,7 +13,7 @@ namespace PersianFaker.Resources.Helpers
             random = new Random();
         }
 
-        public static long GetNextRandomNumber(int maxValue)
+        public static long GetNextRandomNumber(int maxValue = Int32.MaxValue)
         {
             return random.Next(maxValue);
         }
